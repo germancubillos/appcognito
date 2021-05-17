@@ -4,8 +4,8 @@ I18n.setLanguage('es');
 
 export const dict = {
     'es': {
-      'Sign In': 'Registrarse',
-      'Sign in': 'Registrarse',
+      'Sign In': 'Entrar',
+      'Sign in': 'Entrar',
       'Sign in to your account': "Paseo El Éden - Autenticación",
       'Sign Up': 'Regístrate',
       'Sign Out': 'Desconectar',
@@ -53,6 +53,7 @@ export const dict = {
       'Create a new account': 'Crea una nueva cuenta',
       'Email Address *': 'Dirección de correo electronico',
       'Phone Number *': 'Número de telefono',
-      'Have an account?': 'Tienes ya una cuenta?'
+      'Have an account?': 'Tienes ya una cuenta?',
+      'Enter your email address': 'Ingrese su correo electronico'
     }
   };
