@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+
+amplify-authenticator {
+
+    --amplify-primary-color: #ff6347;
+    --amplify-primary-tint: #ff7359;
+    --amplify-primary-shade: #e0573e;
+    --amplify-background-color: rgba(255, 255, 255, 0.5);
+    --amplify-font-family: 'Raleway', 'Open Sans', sans-serif;
+  flex: 1;
+  height: 100vh;
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80vw;
+
+}
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

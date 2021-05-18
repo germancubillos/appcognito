@@ -17,8 +17,9 @@ function App() {
       height: '100vh',
       backgroundImage: `url(${Background})`,
       backgroundSize: '1400px 800px'
-    }}>
+    }}> 
     <AmplifyAuthenticator>
+      
     <AmplifySignUp
           slot="sign-up"
           formFields={[
@@ -28,14 +29,27 @@ function App() {
               label: "Custom Password Label",
               placeholder: "custom password placeholder"
             },
-            { type: "email" }
+            { type: "email" ,  hint: null,
+            required: true},
+            {
+              type: 'name',
+              label: 'Name',
+              placeholder: 'Enter your full name',
+              required: true,
+              handleInputChange: (event, cb) => {
+                cb(event)
+              }
+            }
           ]} 
         />
       <AmplifySignOut />
     </AmplifyAuthenticator >
     </div>
   )
+  
 }
+
+
 
 I18n.putVocabularies(dict);
 
